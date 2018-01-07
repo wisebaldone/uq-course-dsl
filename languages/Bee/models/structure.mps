@@ -93,183 +93,51 @@
       <ref role="20lvS9" node="3PsSq05XIgM" resolve="Course" />
     </node>
   </node>
-  <node concept="1TIwiD" id="3PsSq05Y6jr">
-    <property role="EcuMT" value="4421657011582166235" />
+  <node concept="1TIwiD" id="4tT$AeBkt0Z">
+    <property role="EcuMT" value="5150308605581447231" />
     <property role="TrG5h" value="Program" />
-    <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Program" />
-    <property role="R4oN_" value="A course program" />
-    <property role="3GE5qa" value="Programs" />
+    <property role="19KtqR" value="true" />
+    <property role="R4oN_" value="declaration of a program" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="3jok1_7w95E" role="1TKVEi">
-      <property role="IQ2ns" value="3807881554445767018" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="majors" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="3jok1_7w95J" resolve="Major" />
-    </node>
-    <node concept="PrWs8" id="3PsSq05Y6js" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="1TJgyj" id="3PsSq05Y7L$" role="1TKVEi">
-      <property role="IQ2ns" value="4421657011582172260" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="sections" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3PsSq05Y7aX" resolve="Part" />
-    </node>
-    <node concept="1TJgyi" id="3PsSq05Y8$A" role="1TKVEl">
-      <property role="IQ2nx" value="4421657011582175526" />
-      <property role="TrG5h" value="shortName" />
+    <node concept="1TJgyi" id="4tT$AeBkt12" role="1TKVEl">
+      <property role="IQ2nx" value="5150308605581447234" />
+      <property role="TrG5h" value="short" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="3PsSq05Y6Ld">
-    <property role="EcuMT" value="4421657011582168141" />
-    <property role="3GE5qa" value="Programs" />
-    <property role="TrG5h" value="SingleCourseRef" />
-    <ref role="1TJDcQ" node="3PsSq05Y7b7" resolve="CourseBlock" />
-    <node concept="1TJgyj" id="3PsSq05Y6Le" role="1TKVEi">
-      <property role="IQ2ns" value="4421657011582168142" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="course" />
-      <ref role="20lvS9" node="3PsSq05XIgM" resolve="Course" />
+    <node concept="1TJgyj" id="4tT$AeBkNkz" role="1TKVEi">
+      <property role="IQ2ns" value="5150308605581538595" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="class" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4tT$AeBkt17" resolve="ProgramType" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="3PsSq05Y7aX">
-    <property role="EcuMT" value="4421657011582169789" />
-    <property role="3GE5qa" value="Programs" />
-    <property role="TrG5h" value="Part" />
-    <property role="34LRSv" value="Part" />
-    <property role="R4oN_" value="Is a collection of logical courses, example: Compulsory, Introductionary ELectives" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3PsSq05Y7aY" role="PzmwI">
+    <node concept="PrWs8" id="4tT$AeBl1kc" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="1TJgyi" id="3PsSq05Y7b1" role="1TKVEl">
-      <property role="IQ2nx" value="4421657011582169793" />
-      <property role="TrG5h" value="description" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyj" id="3PsSq05Y7b4" role="1TKVEi">
-      <property role="IQ2ns" value="4421657011582169796" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="courses" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3PsSq05Y7b7" resolve="CourseBlock" />
-    </node>
   </node>
-  <node concept="1TIwiD" id="3PsSq05Y7b7">
-    <property role="EcuMT" value="4421657011582169799" />
-    <property role="3GE5qa" value="Programs" />
-    <property role="TrG5h" value="CourseBlock" />
+  <node concept="1TIwiD" id="4tT$AeBkt17">
+    <property role="EcuMT" value="5150308605581447239" />
+    <property role="TrG5h" value="ProgramType" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="3GE5qa" value="Program.Type" />
+    <property role="34LRSv" value="[undefined program type]" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
-  <node concept="1TIwiD" id="3PsSq05Y8ht">
-    <property role="EcuMT" value="4421657011582174301" />
-    <property role="3GE5qa" value="Programs" />
-    <property role="TrG5h" value="MultiCourseRef" />
-    <property role="R4oN_" value="Collection of optional courses which can be taken for one slot." />
-    <ref role="1TJDcQ" node="3PsSq05Y7b7" resolve="CourseBlock" />
-    <node concept="1TJgyj" id="3PsSq05Y8hu" role="1TKVEi">
-      <property role="IQ2ns" value="4421657011582174302" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="course" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3PsSq05Y6Ld" resolve="SingleCourseRef" />
-    </node>
+  <node concept="1TIwiD" id="4tT$AeBkt18">
+    <property role="EcuMT" value="5150308605581447240" />
+    <property role="3GE5qa" value="Program.Type" />
+    <property role="TrG5h" value="Bachelor" />
+    <property role="34LRSv" value="Bachelor" />
+    <ref role="1TJDcQ" node="4tT$AeBkt17" resolve="ProgramType" />
   </node>
-  <node concept="1TIwiD" id="3jok1_7w95J">
-    <property role="EcuMT" value="3807881554445767023" />
-    <property role="3GE5qa" value="Programs" />
-    <property role="TrG5h" value="Major" />
-    <property role="34LRSv" value="major" />
-    <property role="R4oN_" value="Definition of a major" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3jok1_7w95K" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="1TJgyi" id="3jok1_7whl6" role="1TKVEl">
-      <property role="IQ2nx" value="3807881554445800774" />
-      <property role="TrG5h" value="totalUnits" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyj" id="3jok1_7whl9" role="1TKVEi">
-      <property role="IQ2ns" value="3807881554445800777" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="restrictions" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3jok1_7whms" resolve="MajorConstraints" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3jok1_7whms">
-    <property role="EcuMT" value="3807881554445800860" />
-    <property role="3GE5qa" value="Programs" />
-    <property role="TrG5h" value="MajorConstraints" />
-    <property role="R5$K7" value="false" />
-    <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="3jok1_7wmKc" role="1TKVEi">
-      <property role="IQ2ns" value="3807881554445822988" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="statements" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3jok1_7wmKf" resolve="StatementList" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3jok1_7wmKf">
-    <property role="EcuMT" value="3807881554445822991" />
-    <property role="TrG5h" value="StatementList" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3jok1_7wmKg" role="PzmwI">
-      <ref role="PrY4T" to="tpck:hWu5dyl" resolve="IContainer" />
-    </node>
-    <node concept="1TJgyj" id="3jok1_7wmKq" role="1TKVEi">
-      <property role="IQ2ns" value="3807881554445823002" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="statement" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3jok1_7wmKt" resolve="Statement" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3jok1_7wmKt">
-    <property role="EcuMT" value="3807881554445823005" />
-    <property role="TrG5h" value="Statement" />
-    <property role="34LRSv" value="&lt;statement&gt;" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
-  <node concept="1TIwiD" id="3jok1_7wn9O">
-    <property role="EcuMT" value="3807881554445824628" />
-    <property role="TrG5h" value="From" />
-    <property role="34LRSv" value="&lt;num of units&gt; from &lt;part&gt;" />
-    <ref role="1TJDcQ" node="3jok1_7wmKt" resolve="Statement" />
-    <node concept="1TJgyi" id="3jok1_7wna7" role="1TKVEl">
-      <property role="IQ2nx" value="3807881554445824647" />
-      <property role="TrG5h" value="unit" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyj" id="3jok1_7wnaa" role="1TKVEi">
-      <property role="IQ2ns" value="3807881554445824650" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="part" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3jok1_7wn9X" resolve="PartRef" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3jok1_7wn9X">
-    <property role="EcuMT" value="3807881554445824637" />
-    <property role="3GE5qa" value="Programs" />
-    <property role="TrG5h" value="PartRef" />
-    <property role="R4oN_" value="Reference of a defined Part." />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="3jok1_7wn9Z" role="1TKVEi">
-      <property role="IQ2ns" value="3807881554445824639" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="part" />
-      <ref role="20lvS9" node="3PsSq05Y7aX" resolve="Part" />
-    </node>
+  <node concept="1TIwiD" id="4tT$AeBkt19">
+    <property role="EcuMT" value="5150308605581447241" />
+    <property role="3GE5qa" value="Program.Type" />
+    <property role="TrG5h" value="Master" />
+    <property role="34LRSv" value="Master" />
+    <ref role="1TJDcQ" node="4tT$AeBkt17" resolve="ProgramType" />
   </node>
 </model>
 

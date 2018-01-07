@@ -9,30 +9,11 @@
   </imports>
   <registry>
     <language id="c6e391ae-4541-4d92-b009-e7b9371abd4e" name="Bee">
-      <concept id="4421657011582166235" name="Bee.structure.Program" flags="ng" index="SD8lV">
-        <property id="4421657011582175526" name="shortName" index="SD6y6" />
-        <child id="4421657011582172260" name="sections" index="SD9R4" />
-        <child id="3807881554445767018" name="majors" index="1Nmc5N" />
-      </concept>
-      <concept id="4421657011582169789" name="Bee.structure.Part" flags="ng" index="SD9ct">
-        <property id="4421657011582169793" name="description" index="SD9dx" />
-      </concept>
-      <concept id="3807881554445767023" name="Bee.structure.Major" flags="ng" index="1Nmc5Q">
-        <property id="3807881554445800774" name="totalUnits" index="1Nmklv" />
-        <child id="3807881554445800777" name="restrictions" index="1Nmklg" />
-      </concept>
-      <concept id="3807881554445824637" name="Bee.structure.PartRef" flags="ng" index="1Nmi9$">
-        <reference id="3807881554445824639" name="part" index="1Nmi9A" />
-      </concept>
-      <concept id="3807881554445824628" name="Bee.structure.From" flags="ng" index="1Nmi9H">
-        <property id="3807881554445824647" name="unit" index="1Nmiau" />
-        <child id="3807881554445824650" name="part" index="1Nmiaj" />
-      </concept>
-      <concept id="3807881554445822991" name="Bee.structure.StatementList" flags="ng" index="1NmjKm">
-        <child id="3807881554445823002" name="statement" index="1NmjK3" />
-      </concept>
-      <concept id="3807881554445800860" name="Bee.structure.MajorConstraints" flags="ng" index="1Nmkm5">
-        <child id="3807881554445822988" name="statements" index="1NmjKl" />
+      <concept id="5150308605581447241" name="Bee.structure.Master" flags="ng" index="3wa48E" />
+      <concept id="5150308605581447240" name="Bee.structure.Bachelor" flags="ng" index="3wa48F" />
+      <concept id="5150308605581447231" name="Bee.structure.Program" flags="ng" index="3wa49s">
+        <property id="5150308605581447234" name="short" index="3wa48x" />
+        <child id="5150308605581538595" name="class" index="3waEt0" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -41,27 +22,15 @@
       </concept>
     </language>
   </registry>
-  <node concept="SD8lV" id="3PsSq05Y6Df">
-    <property role="TrG5h" value="Bachelor of Computer Science" />
-    <property role="SD6y6" value="BCompSc" />
-    <node concept="1Nmc5Q" id="3jok1_7xHsS" role="1Nmc5N">
-      <property role="TrG5h" value="single" />
-      <property role="1Nmklv" value="48" />
-      <node concept="1Nmkm5" id="3jok1_7xHsT" role="1Nmklg">
-        <node concept="1NmjKm" id="3jok1_7yhIA" role="1NmjKl">
-          <node concept="1Nmi9H" id="3jok1_7yhIC" role="1NmjK3">
-            <property role="1Nmiau" value="24" />
-            <node concept="1Nmi9$" id="3jok1_7yhID" role="1Nmiaj">
-              <ref role="1Nmi9A" node="3jok1_7xIke" resolve="A" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="SD9ct" id="3jok1_7xIke" role="SD9R4">
-      <property role="TrG5h" value="A" />
-      <property role="SD9dx" value="something" />
-    </node>
+  <node concept="3wa49s" id="4tT$AeBkNky">
+    <property role="3wa48x" value="BCompSci" />
+    <property role="TrG5h" value="Computer Science" />
+    <node concept="3wa48F" id="4tT$AeBlnPs" role="3waEt0" />
+  </node>
+  <node concept="3wa49s" id="4tT$AeBlnZL">
+    <property role="TrG5h" value="Computer Science" />
+    <property role="3wa48x" value="MCompSci" />
+    <node concept="3wa48E" id="4tT$AeBlnZN" role="3waEt0" />
   </node>
 </model>
 
