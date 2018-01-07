@@ -1,1 +1,16 @@
 .mps/
+/system
+/config
+.DS_Store
+.idea/workspace.xml
+.idea/inspectionProfiles
+/build/tmp/*
+/build/artifacts/*
+classes
+classes_gen
+testclasses
+*.iws
+teamcity-info.xml
+*.hprof
+*.class
+.mps/workspace.xml

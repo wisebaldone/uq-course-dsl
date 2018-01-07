@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:8420518a-9d21-4c32-9d67-8cf9fea5c320(Bee.sandbox)">
+<model ref="r:b8a772ca-9950-4a58-a2f6-32e811469f02(Sample.Families)">
   <persistence version="9" />
   <languages>
     <use id="c6e391ae-4541-4d92-b009-e7b9371abd4e" name="Bee" version="0" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
   </languages>
   <imports />
   <registry>
     <language id="c6e391ae-4541-4d92-b009-e7b9371abd4e" name="Bee">
-      <concept id="4421657011582166235" name="Bee.structure.Program" flags="ng" index="SD8lV" />
       <concept id="4421657011582067762" name="Bee.structure.Course" flags="ng" index="SEwmi">
         <property id="4421657011582067765" name="units" index="SEwml" />
         <property id="4421657011582067768" name="title" index="SEwmo" />
@@ -101,9 +99,6 @@
       <property role="SEwmo" value="Advanced Calculus &amp; Linear Algebra 1" />
       <property role="SEwml" value="2" />
     </node>
-  </node>
-  <node concept="SD8lV" id="3PsSq05Y6u_">
-    <property role="TrG5h" value="Bachelor of Computer Science" />
   </node>
 </model>
 
