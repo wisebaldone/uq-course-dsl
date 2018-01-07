@@ -99,6 +99,7 @@
     <property role="34LRSv" value="Program" />
     <property role="19KtqR" value="true" />
     <property role="R4oN_" value="declaration of a program" />
+    <property role="3GE5qa" value="Program" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4tT$AeBkt12" role="1TKVEl">
       <property role="IQ2nx" value="5150308605581447234" />
@@ -111,6 +112,13 @@
       <property role="20kJfa" value="class" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="4tT$AeBkt17" resolve="ProgramType" />
+    </node>
+    <node concept="1TJgyj" id="4tT$AeBlqgR" role="1TKVEi">
+      <property role="IQ2ns" value="5150308605581698103" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="commands" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4tT$AeBlqgU" resolve="BeeList" />
     </node>
     <node concept="PrWs8" id="4tT$AeBl1kc" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -138,6 +146,224 @@
     <property role="TrG5h" value="Master" />
     <property role="34LRSv" value="Master" />
     <ref role="1TJDcQ" node="4tT$AeBkt17" resolve="ProgramType" />
+  </node>
+  <node concept="1TIwiD" id="4tT$AeBlqgz">
+    <property role="EcuMT" value="5150308605581698083" />
+    <property role="TrG5h" value="AbstractBeeCommand" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="4tT$AeBlqg$">
+    <property role="EcuMT" value="5150308605581698084" />
+    <property role="TrG5h" value="EmptyLine" />
+    <property role="34LRSv" value="&lt;empty&gt;" />
+    <ref role="1TJDcQ" node="4tT$AeBlqgz" resolve="AbstractBeeCommand" />
+  </node>
+  <node concept="1TIwiD" id="4tT$AeBlqgU">
+    <property role="EcuMT" value="5150308605581698106" />
+    <property role="TrG5h" value="BeeList" />
+    <ref role="1TJDcQ" node="4tT$AeBlqgz" resolve="AbstractBeeCommand" />
+    <node concept="1TJgyj" id="4tT$AeBlqgV" role="1TKVEi">
+      <property role="IQ2ns" value="5150308605581698107" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="commands" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="4tT$AeBlqgz" resolve="AbstractBeeCommand" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4tT$AeBl_ae">
+    <property role="EcuMT" value="5150308605581742734" />
+    <property role="TrG5h" value="MajorTypeDef" />
+    <property role="R4oN_" value="Declaration of a major type (none/single/dual)" />
+    <property role="3GE5qa" value="Major" />
+    <ref role="1TJDcQ" node="4tT$AeBlqgz" resolve="AbstractBeeCommand" />
+    <node concept="1TJgyj" id="4tT$AeBlADW" role="1TKVEi">
+      <property role="IQ2ns" value="5150308605581748860" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="class" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="4tT$AeBlADY" resolve="MajorClass" />
+    </node>
+    <node concept="1TJgyj" id="4tT$AeBlD0M" role="1TKVEi">
+      <property role="IQ2ns" value="5150308605581758514" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="commands" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4tT$AeBlqgU" resolve="BeeList" />
+    </node>
+    <node concept="1TJgyi" id="fKUpqL8WLP" role="1TKVEl">
+      <property role="IQ2nx" value="283983609950620789" />
+      <property role="TrG5h" value="units" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4tT$AeBlADY">
+    <property role="EcuMT" value="5150308605581748862" />
+    <property role="TrG5h" value="MajorClass" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <property role="3GE5qa" value="Major.Class" />
+    <property role="34LRSv" value="&lt;major type&gt;" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="4tT$AeBlAE0">
+    <property role="EcuMT" value="5150308605581748864" />
+    <property role="3GE5qa" value="Major.Class" />
+    <property role="TrG5h" value="NoneMajor" />
+    <property role="34LRSv" value="None" />
+    <ref role="1TJDcQ" node="4tT$AeBlADY" resolve="MajorClass" />
+  </node>
+  <node concept="1TIwiD" id="4tT$AeBlAE1">
+    <property role="EcuMT" value="5150308605581748865" />
+    <property role="3GE5qa" value="Major.Class" />
+    <property role="TrG5h" value="SingleMajor" />
+    <property role="34LRSv" value="Single" />
+    <ref role="1TJDcQ" node="4tT$AeBlADY" resolve="MajorClass" />
+  </node>
+  <node concept="1TIwiD" id="4tT$AeBlAE2">
+    <property role="EcuMT" value="5150308605581748866" />
+    <property role="3GE5qa" value="Major.Class" />
+    <property role="TrG5h" value="DualMajor" />
+    <property role="34LRSv" value="Dual" />
+    <ref role="1TJDcQ" node="4tT$AeBlADY" resolve="MajorClass" />
+  </node>
+  <node concept="1TIwiD" id="4tT$AeBlECW">
+    <property role="EcuMT" value="5150308605581765180" />
+    <property role="TrG5h" value="Comment" />
+    <property role="34LRSv" value="// comment" />
+    <ref role="1TJDcQ" node="4tT$AeBlqgz" resolve="AbstractBeeCommand" />
+    <node concept="1TJgyi" id="4tT$AeBlECX" role="1TKVEl">
+      <property role="IQ2nx" value="5150308605581765181" />
+      <property role="TrG5h" value="contents" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="fKUpqL8Sgb">
+    <property role="EcuMT" value="283983609950602251" />
+    <property role="3GE5qa" value="Major.Class" />
+    <property role="TrG5h" value="GradDiploma" />
+    <property role="34LRSv" value="Graduate Diploma" />
+    <ref role="1TJDcQ" node="4tT$AeBlADY" resolve="MajorClass" />
+  </node>
+  <node concept="1TIwiD" id="fKUpqL8Sgc">
+    <property role="EcuMT" value="283983609950602252" />
+    <property role="3GE5qa" value="Major.Class" />
+    <property role="TrG5h" value="UnitMajor" />
+    <property role="34LRSv" value="UnitSpecificMajor" />
+    <ref role="1TJDcQ" node="4tT$AeBlADY" resolve="MajorClass" />
+    <node concept="1TJgyi" id="fKUpqL8SgW" role="1TKVEl">
+      <property role="IQ2nx" value="283983609950602300" />
+      <property role="TrG5h" value="units" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="fKUpqL8ZXg">
+    <property role="EcuMT" value="283983609950633808" />
+    <property role="TrG5h" value="requires" />
+    <property role="34LRSv" value="requires" />
+    <property role="R4oN_" value="Defines the restrictions of a segment( Part or Major )" />
+    <ref role="1TJDcQ" node="4tT$AeBlqgz" resolve="AbstractBeeCommand" />
+    <node concept="1TJgyj" id="fKUpqL94pl" role="1TKVEi">
+      <property role="IQ2ns" value="283983609950651989" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="param" />
+      <ref role="20lvS9" node="fKUpqL94po" resolve="Quantifier" />
+    </node>
+    <node concept="1TJgyj" id="fKUpqL92lX" role="1TKVEi">
+      <property role="IQ2ns" value="283983609950643581" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="from" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="fKUpqL92ln" resolve="from" />
+    </node>
+    <node concept="1TJgyj" id="6p4E9yQpoN4" role="1TKVEi">
+      <property role="IQ2ns" value="7369200264133577924" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="specificList" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6p4E9yQpssr" resolve="SpecificList" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="fKUpqL92ln">
+    <property role="EcuMT" value="283983609950643543" />
+    <property role="TrG5h" value="from" />
+    <property role="34LRSv" value="from" />
+    <ref role="1TJDcQ" node="4tT$AeBlqgz" resolve="AbstractBeeCommand" />
+  </node>
+  <node concept="1TIwiD" id="fKUpqL94po">
+    <property role="EcuMT" value="283983609950651992" />
+    <property role="TrG5h" value="Quantifier" />
+    <property role="3GE5qa" value="Quantifiers" />
+    <ref role="1TJDcQ" node="4tT$AeBlqgz" resolve="AbstractBeeCommand" />
+  </node>
+  <node concept="1TIwiD" id="fKUpqL94pp">
+    <property role="EcuMT" value="283983609950651993" />
+    <property role="3GE5qa" value="Quantifiers" />
+    <property role="TrG5h" value="MinQuant" />
+    <property role="34LRSv" value="min" />
+    <property role="R4oN_" value="Minimum amount allowed" />
+    <ref role="1TJDcQ" node="fKUpqL94po" resolve="Quantifier" />
+    <node concept="1TJgyi" id="6p4E9yQpmb6" role="1TKVEl">
+      <property role="IQ2nx" value="7369200264133567174" />
+      <property role="TrG5h" value="units" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="fKUpqL94pq">
+    <property role="EcuMT" value="283983609950651994" />
+    <property role="3GE5qa" value="Quantifiers" />
+    <property role="TrG5h" value="MaxQuant" />
+    <property role="R4oN_" value="Maxmium amount allowed" />
+    <property role="34LRSv" value="max" />
+    <ref role="1TJDcQ" node="fKUpqL94po" resolve="Quantifier" />
+  </node>
+  <node concept="1TIwiD" id="fKUpqL94pr">
+    <property role="EcuMT" value="283983609950651995" />
+    <property role="3GE5qa" value="Quantifiers" />
+    <property role="TrG5h" value="ExactlyQuant" />
+    <property role="R4oN_" value="amount needed allowed" />
+    <property role="34LRSv" value="exact" />
+    <ref role="1TJDcQ" node="fKUpqL94po" resolve="Quantifier" />
+  </node>
+  <node concept="1TIwiD" id="fKUpqL94ps">
+    <property role="EcuMT" value="283983609950651996" />
+    <property role="3GE5qa" value="Quantifiers" />
+    <property role="TrG5h" value="SomeQuant" />
+    <property role="34LRSv" value="some" />
+    <property role="R4oN_" value="Some from somewhere" />
+    <ref role="1TJDcQ" node="fKUpqL94po" resolve="Quantifier" />
+  </node>
+  <node concept="1TIwiD" id="6p4E9yQpssr">
+    <property role="EcuMT" value="7369200264133592859" />
+    <property role="TrG5h" value="SpecificList" />
+    <ref role="1TJDcQ" node="4tT$AeBlqgz" resolve="AbstractBeeCommand" />
+    <node concept="1TJgyj" id="6p4E9yQpsss" role="1TKVEi">
+      <property role="IQ2ns" value="7369200264133592860" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="wheres" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6p4E9yQpssu" resolve="where" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6p4E9yQpssu">
+    <property role="EcuMT" value="7369200264133592862" />
+    <property role="TrG5h" value="where" />
+    <property role="34LRSv" value="where" />
+    <property role="R4oN_" value="specifies requirements of a requires" />
+    <ref role="1TJDcQ" node="4tT$AeBlqgz" resolve="AbstractBeeCommand" />
+    <node concept="1TJgyj" id="6p4E9yQp$_l" role="1TKVEi">
+      <property role="IQ2ns" value="7369200264133626197" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="quantifier" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="fKUpqL94po" resolve="Quantifier" />
+    </node>
+    <node concept="1TJgyj" id="6p4E9yQp$_j" role="1TKVEi">
+      <property role="IQ2ns" value="7369200264133626195" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="from" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="fKUpqL92ln" resolve="from" />
+    </node>
   </node>
 </model>
 
