@@ -400,6 +400,9 @@
     <node concept="PrWs8" id="6jLpXsZHSsj" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="3j5WrIaaXWo" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
     <node concept="1TJgyj" id="6jLpXsZHVUD" role="1TKVEi">
       <property role="IQ2ns" value="7273709047364697769" />
       <property role="20lmBu" value="aggregation" />
@@ -430,6 +433,25 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="part" />
       <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6jLpXsZHSsi" resolve="Part" />
+    </node>
+    <node concept="1TJgyi" id="3j5WrIac9a6" role="1TKVEl">
+      <property role="IQ2nx" value="3802711248163869318" />
+      <property role="TrG5h" value="isSub" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3j5WrIacrYx">
+    <property role="EcuMT" value="3802711248163946401" />
+    <property role="TrG5h" value="SubPartRef" />
+    <ref role="1TJDcQ" node="6jLpXsZHZed" resolve="PartRef" />
+    <node concept="PrWs8" id="3j5WrIacrYy" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="3j5WrIacrYC" role="1TKVEi">
+      <property role="IQ2ns" value="3802711248163946408" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="subPart" />
       <ref role="20lvS9" node="6jLpXsZHSsi" resolve="Part" />
     </node>
   </node>
