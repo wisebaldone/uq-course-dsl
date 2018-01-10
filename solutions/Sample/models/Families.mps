@@ -80,6 +80,66 @@
       <property role="SEwmo" value="Principles of Program Analysis" />
       <property role="SEwml" value="2" />
     </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4zE" role="SETsO">
+      <property role="TrG5h" value="CSSE7014" />
+      <property role="SEwmo" value="Distributed Computing" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4zR" role="SETsO">
+      <property role="TrG5h" value="CSSE7411" />
+      <property role="SEwmo" value="Advanced Embedded Systems" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4$5" role="SETsO">
+      <property role="TrG5h" value="CSSE7610" />
+      <property role="SEwmo" value="Concurrency: Theory and Practice" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4$k" role="SETsO">
+      <property role="TrG5h" value="CSSE7630" />
+      <property role="SEwmo" value="Principles of Program Analysis" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4$$" role="SETsO">
+      <property role="TrG5h" value="CSSE7640" />
+      <property role="SEwmo" value="Formal Modelling and Verification" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4$P" role="SETsO">
+      <property role="TrG5h" value="CSSE7080" />
+      <property role="SEwmo" value="Advanced Topics in Computer Systems A" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4_7" role="SETsO">
+      <property role="TrG5h" value="CSSE7081" />
+      <property role="SEwmo" value="Advanced Topics in Computer Systems B" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4_q" role="SETsO">
+      <property role="TrG5h" value="CSSE7090" />
+      <property role="SEwmo" value="Advanced Topics in Software Engineering A" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4_I" role="SETsO">
+      <property role="TrG5h" value="CSSE7091" />
+      <property role="SEwmo" value="Advanced Topics in Software Engineering B" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4A3" role="SETsO">
+      <property role="TrG5h" value="CSSE7001" />
+      <property role="SEwmo" value="The Software Process" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4B5" role="SETsO">
+      <property role="TrG5h" value="CSSE7100" />
+      <property role="SEwmo" value="Reasoning about Programs" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4Bs" role="SETsO">
+      <property role="TrG5h" value="CSSE7301" />
+      <property role="SEwmo" value="Embedded Systems Design &amp; Interfacing" />
+      <property role="SEwml" value="2" />
+    </node>
   </node>
   <node concept="SET3B" id="3PsSq05Y6jb">
     <property role="TrG5h" value="MATH" />
@@ -97,6 +157,214 @@
     <node concept="SEwmi" id="3PsSq05Y6jk" role="SETsO">
       <property role="TrG5h" value="MATH1071" />
       <property role="SEwmo" value="Advanced Calculus &amp; Linear Algebra 1" />
+      <property role="SEwml" value="2" />
+    </node>
+  </node>
+  <node concept="SET3B" id="6Cq6ZV_wWKo">
+    <property role="TrG5h" value="COMP" />
+    <property role="SET3E" value="Whatever Comp Stands for" />
+    <node concept="SEwmi" id="6Cq6ZV_wWKp" role="SETsO">
+      <property role="TrG5h" value="COMP7402" />
+      <property role="SEwmo" value="Compilers and Interpreters" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_wWKv" role="SETsO">
+      <property role="TrG5h" value="COMP7500" />
+      <property role="SEwmo" value="Advanced Algorithms &amp; Data Structures" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_wWKy" role="SETsO">
+      <property role="TrG5h" value="COMP7703" />
+      <property role="SEwmo" value="Machine Learning" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_wWKS" role="SETsO">
+      <property role="TrG5h" value="COMP7000" />
+      <property role="SEwmo" value="Special Topics in Computer Science 7A" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_wWKX" role="SETsO">
+      <property role="TrG5h" value="COMP7001" />
+      <property role="SEwmo" value="Special Topics in COmputer Science 7B" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_wWL3" role="SETsO">
+      <property role="TrG5h" value="COMP7308" />
+      <property role="SEwmo" value="Operating Systems Architecture" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_wWLa" role="SETsO">
+      <property role="TrG5h" value="COMP7505" />
+      <property role="SEwmo" value="Algorithms &amp; Data Structures" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_wWLi" role="SETsO">
+      <property role="TrG5h" value="COMP7702" />
+      <property role="SEwmo" value="Artifical Intelligence" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_wWLr" role="SETsO">
+      <property role="TrG5h" value="COMP7801" />
+      <property role="SEwmo" value="Computer Science Research Project" />
+      <property role="SEwml" value="4" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_wWL_" role="SETsO">
+      <property role="TrG5h" value="COMP7802" />
+      <property role="SEwmo" value="Computer Science Research Project" />
+      <property role="SEwml" value="4" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_wWLK" role="SETsO">
+      <property role="TrG5h" value="COMP7840" />
+      <property role="SEwmo" value="Computer Science Research Project" />
+      <property role="SEwml" value="4" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_wWLW" role="SETsO">
+      <property role="TrG5h" value="COMP7860" />
+      <property role="SEwmo" value="Computer Science Research Project" />
+      <property role="SEwml" value="6" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_wWM9" role="SETsO">
+      <property role="TrG5h" value="COMP7861" />
+      <property role="SEwmo" value="Computer Science Research Project" />
+      <property role="SEwml" value="6" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_wWMn" role="SETsO">
+      <property role="TrG5h" value="COMP7862" />
+      <property role="SEwmo" value="Computer Science Research Project" />
+      <property role="SEwml" value="6" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_wWMA" role="SETsO">
+      <property role="TrG5h" value="COMP7880" />
+      <property role="SEwmo" value="Computer Science Research Project" />
+      <property role="SEwml" value="8" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_wWMQ" role="SETsO">
+      <property role="TrG5h" value="COMP7881" />
+      <property role="SEwmo" value="Computer Science Research Project" />
+      <property role="SEwml" value="8" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_wWN7" role="SETsO">
+      <property role="TrG5h" value="COMP7882" />
+      <property role="SEwmo" value="Computer Science Research Project" />
+      <property role="SEwml" value="8" />
+    </node>
+  </node>
+  <node concept="SET3B" id="6Cq6ZV_x4zl">
+    <property role="TrG5h" value="COMS" />
+    <property role="SET3E" value="Whatever COMS stands for" />
+    <node concept="SEwmi" id="6Cq6ZV_x4zm" role="SETsO">
+      <property role="TrG5h" value="COMS7200" />
+      <property role="SEwmo" value="Computer Networks II" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4zo" role="SETsO">
+      <property role="TrG5h" value="COMS7410" />
+      <property role="SEwmo" value="Communication Systems" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4zr" role="SETsO">
+      <property role="TrG5h" value="COMS7507" />
+      <property role="SEwmo" value="Advanced Computer and Network Security" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4zv" role="SETsO">
+      <property role="TrG5h" value="COMS7003" />
+      <property role="SEwmo" value="Information Security" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4z$" role="SETsO">
+      <property role="TrG5h" value="COMS7201" />
+      <property role="SEwmo" value="Computer Networks I" />
+      <property role="SEwml" value="2" />
+    </node>
+  </node>
+  <node concept="SET3B" id="6Cq6ZV_x4BO">
+    <property role="TrG5h" value="DECO" />
+    <property role="SET3E" value="what deco stands for" />
+    <node concept="SEwmi" id="6Cq6ZV_x4BP" role="SETsO">
+      <property role="TrG5h" value="DECO7450" />
+      <property role="SEwmo" value="Advanced Human-Computer Interaction" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4BR" role="SETsO">
+      <property role="TrG5h" value="DECO7350" />
+      <property role="SEwmo" value="Social and Mobile Computing" />
+      <property role="SEwml" value="2" />
+    </node>
+  </node>
+  <node concept="SET3B" id="6Cq6ZV_x4BU">
+    <property role="TrG5h" value="INFS" />
+    <property role="SET3E" value="What infs stands for, viva la revolution" />
+    <node concept="SEwmi" id="6Cq6ZV_x4BV" role="SETsO">
+      <property role="TrG5h" value="INFS7203" />
+      <property role="SEwmo" value="Data Mining" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4BX" role="SETsO">
+      <property role="TrG5h" value="INFS7205" />
+      <property role="SEwmo" value="Advanced Techniques for High Deimensional Data" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4C0" role="SETsO">
+      <property role="TrG5h" value="INFS7410" />
+      <property role="SEwmo" value="Information Retrieval for High Dimensional Data" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4Cc" role="SETsO">
+      <property role="TrG5h" value="INFS7202" />
+      <property role="SEwmo" value="Web Information Systems" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4Ch" role="SETsO">
+      <property role="TrG5h" value="INFS7204" />
+      <property role="SEwmo" value="Service-Oriented Architectures" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4Cn" role="SETsO">
+      <property role="TrG5h" value="INFS7907" />
+      <property role="SEwmo" value="Advanced Database Systems" />
+      <property role="SEwml" value="2" />
+    </node>
+  </node>
+  <node concept="SET3B" id="6Cq6ZV_x4Cu">
+    <property role="TrG5h" value="COSC" />
+    <property role="SET3E" value="cosc stands for something im sure" />
+    <node concept="SEwmi" id="6Cq6ZV_x4Cv" role="SETsO">
+      <property role="TrG5h" value="COSC7502" />
+      <property role="SEwmo" value="High-Performance Computing" />
+      <property role="SEwml" value="2" />
+    </node>
+  </node>
+  <node concept="SET3B" id="6Cq6ZV_x4Cx">
+    <property role="TrG5h" value="ENGG" />
+    <property role="SET3E" value="Trust me I'm an Engineer" />
+    <node concept="SEwmi" id="6Cq6ZV_x4Cy" role="SETsO">
+      <property role="TrG5h" value="ENGG7000" />
+      <property role="SEwmo" value="Systems Engineering" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4C$" role="SETsO">
+      <property role="TrG5h" value="ENGG7020" />
+      <property role="SEwmo" value="Systems Safety Engineering" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4CB" role="SETsO">
+      <property role="TrG5h" value="ENGG7800" />
+      <property role="SEwmo" value="Engineering Project Management" />
+      <property role="SEwml" value="2" />
+    </node>
+    <node concept="SEwmi" id="6Cq6ZV_x4CF" role="SETsO">
+      <property role="TrG5h" value="ENGG7811" />
+      <property role="SEwmo" value="Research Methods" />
+      <property role="SEwml" value="2" />
+    </node>
+  </node>
+  <node concept="SET3B" id="6Cq6ZV_x4CK">
+    <property role="TrG5h" value="BISM" />
+    <property role="SET3E" value="Something about business i reckon" />
+    <node concept="SEwmi" id="6Cq6ZV_x4CL" role="SETsO">
+      <property role="TrG5h" value="BISM7255" />
+      <property role="SEwmo" value="Business Information Systems Analysis and Design" />
       <property role="SEwml" value="2" />
     </node>
   </node>

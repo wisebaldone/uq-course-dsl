@@ -137,5 +137,8 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="6Cq6ZV_tnpx">
+    <ref role="1M2myG" to="8iss:6Cq6ZV_swMM" resolve="CourseIncludesList" />
+  </node>
 </model>
 

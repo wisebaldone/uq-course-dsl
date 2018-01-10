@@ -455,5 +455,72 @@
       <ref role="20lvS9" node="6jLpXsZHSsi" resolve="Part" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3j5WrIad7ob">
+    <property role="EcuMT" value="3802711248164124171" />
+    <property role="3GE5qa" value="Quantifiers" />
+    <property role="TrG5h" value="SomeApprovedQuant" />
+    <property role="34LRSv" value="some plus approved" />
+    <property role="R4oN_" value="Some from somewhere" />
+    <ref role="1TJDcQ" node="fKUpqL94po" resolve="Quantifier" />
+  </node>
+  <node concept="1TIwiD" id="6Cq6ZV_swMH">
+    <property role="EcuMT" value="7645454098999938221" />
+    <property role="TrG5h" value="CourseIncludes" />
+    <property role="34LRSv" value="Includes" />
+    <property role="R4oN_" value="Forms a list of subjects" />
+    <ref role="1TJDcQ" node="4tT$AeBlqgz" resolve="AbstractBeeCommand" />
+    <node concept="1TJgyj" id="6Cq6ZV_swMN" role="1TKVEi">
+      <property role="IQ2ns" value="7645454098999938227" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="list" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6Cq6ZV_swMM" resolve="CourseIncludesList" />
+    </node>
+    <node concept="PrWs8" id="6Cq6ZV_t94T" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6Cq6ZV_swMM">
+    <property role="EcuMT" value="7645454098999938226" />
+    <property role="TrG5h" value="CourseIncludesList" />
+    <ref role="1TJDcQ" node="4tT$AeBlqgz" resolve="AbstractBeeCommand" />
+    <node concept="1TJgyj" id="6Cq6ZV_tOoE" role="1TKVEi">
+      <property role="IQ2ns" value="7645454099000280618" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="courses" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6Cq6ZV_tfvj" resolve="CourseRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6Cq6ZV_tfvj">
+    <property role="EcuMT" value="7645454099000129491" />
+    <property role="TrG5h" value="CourseRef" />
+    <property role="R4oN_" value="To reference a subject" />
+    <ref role="1TJDcQ" node="4tT$AeBlqgz" resolve="AbstractBeeCommand" />
+    <node concept="1TJgyj" id="6Cq6ZV_tfvk" role="1TKVEi">
+      <property role="IQ2ns" value="7645454099000129492" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="ref" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3PsSq05XIgM" resolve="Course" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6Cq6ZV_unwh">
+    <property role="EcuMT" value="7645454099000424465" />
+    <property role="TrG5h" value="MultiCourseRef" />
+    <ref role="1TJDcQ" node="6Cq6ZV_tfvj" resolve="CourseRef" />
+    <node concept="1TJgyj" id="6Cq6ZV_w2nA" role="1TKVEi">
+      <property role="IQ2ns" value="7645454099000862182" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="refs" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6Cq6ZV_tfvj" resolve="CourseRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6Cq6ZV_wWOr">
+    <property role="EcuMT" value="7645454099001101595" />
+    <property role="TrG5h" value="OccasionalIncludes" />
+    <ref role="1TJDcQ" node="6Cq6ZV_swMH" resolve="CourseIncludes" />
+  </node>
 </model>
 
