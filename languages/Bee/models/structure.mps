@@ -337,6 +337,11 @@
     <property role="R4oN_" value="Maxmium amount allowed" />
     <property role="34LRSv" value="max" />
     <ref role="1TJDcQ" node="fKUpqL94po" resolve="Quantifier" />
+    <node concept="1TJgyi" id="6Cq6ZV_yOcv" role="1TKVEl">
+      <property role="IQ2nx" value="7645454099001590559" />
+      <property role="TrG5h" value="units" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="fKUpqL94pr">
     <property role="EcuMT" value="283983609950651995" />
